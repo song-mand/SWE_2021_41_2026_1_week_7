@@ -1,7 +1,7 @@
 from typing import List
 
 def twoSum(nums: List[int], target: int) -> List[int]:
-    seen = {}  # 값: 인덱스
+    seen = {}
 
     for i, num in enumerate(nums):
         complement = target - num
